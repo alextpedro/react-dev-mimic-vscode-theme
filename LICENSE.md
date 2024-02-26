@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Filip Brebera
+Copyright (c) 2024 Alex Pedro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

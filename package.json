@@ -1,23 +1,23 @@
 {
-  "name": "snowflake",
-  "displayName": "Snowflake Theme",
-  "author": "Filip Brebera <breberaf@gmail.com>",
+  "name": "reactdevmimic",
+  "displayName": "React.dev Mimic",
+  "author": "Alex Pedro <alextpedro@gmail.com>",
   "license": "MIT",
-  "publisher": "breberaf",
+  "publisher": "alextpedro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/breberafilip/snowflake-theme-vscode"
+    "url": "https://github.com/alextpedro/react-dev-mimic-vscode-theme"
   },
   "galleryBanner": {
-		"color": "#1b2029",
-		"theme": "dark"
-	},
-  "description": "Modern color theme in the colors of winter.",
+    "color": "#242830",
+    "theme": "dark"
+  },
+  "description": "A dark color theme mimicking the react.dev website.",
   "scripts": {
-    "build": "node build/light && node build/dark"
+    "build": "node build/dark"
   },
   "icon": "assets/icon.png",
-  "version": "1.0.9",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -27,26 +27,14 @@
   "keywords": [
     "dark",
     "theme",
-    "snowflake",
-    "winter",
-    "cold"
+    "react"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Snowflake Light",
-        "uiTheme": "vs",
-        "path": "./themes/light/snowflake.json"
-      },
-      {
-        "label": "Snowflake Dark",
+        "label": "React Mimic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark/snowflake.json"
-      },
-      {
-        "label": "Snowflake Contrast",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/snowflake-contrast.json"
+        "path": "./themes/dark/dark.json"
       }
     ]
   },
