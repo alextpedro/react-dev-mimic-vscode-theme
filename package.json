@@ -16,7 +16,7 @@
   "scripts": {
     "build": "node build/dark"
   },
-  "icon": "assets/icon.png",
+  "icon": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.45.0"
@@ -40,5 +40,8 @@
   },
   "devDependencies": {
     "mustache": "^4.0.1"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.24.0"
   }
 }

@@ -3,3 +3,4 @@ build/**
 .gitignore
 assets/demo.png
 assets/banner.png
+node_modules
