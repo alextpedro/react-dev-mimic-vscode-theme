@@ -34,7 +34,7 @@
       {
         "label": "React Mimic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark/dark.json"
+        "path": "./themes/dark/clean.json"
       }
     ]
   },
