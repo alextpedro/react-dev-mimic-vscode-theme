@@ -17,7 +17,7 @@
     "build": "node build/dark"
   },
   "icon": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -34,7 +34,7 @@
       {
         "label": "React Mimic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark/clean.json"
+        "path": "./themes/dark/dark.json"
       }
     ]
   },
