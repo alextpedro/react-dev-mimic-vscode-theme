@@ -225,6 +225,8 @@
             "scope": [
                 "meta.definition.function.js",
                 "meta.function.js",
+                "entity.name.function.js",
+                "support.class.component.js"
             ],
             "settings": {
                 "foreground": "#86d9ca"
@@ -237,11 +239,17 @@
                 "keyword.control.from.js",
                 "keyword.control.flow.js",
                 "keyword.control.conditional.js",
+                "keyword.control.loop.js",
                 "storage.type.function.js",
                 "variable.parameter.js",
                 "entity.other.attribute-name.js",
                 "storage.type.js",
                 "meta.var.expr.js",
+                "meta.embedded.expression.js",
+                "keyword.control.export.js",
+                "keyword.control.default.js",
+                "support.variable.property.js",
+                "constant.language.null.js"
             ],
             "settings": {
                 "foreground": "#77b7d7"
@@ -255,7 +263,12 @@
                 "variable.other.readwrite.js",
                 "meta.brace",
                 "variable.other.constant.js",
-                "variable.parameter.js"
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.comparison.js",
+                "keyword.operator.assignment.js",
+                "keyword.operator.relational.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.logical.js"
             ],
             "settings": {
                 "foreground": "#fff"
@@ -263,7 +276,9 @@
         },
         {
             "name": "Static",
-            "scope": [],
+            "scope": [
+                "constant.numeric.decimal.js"
+            ],
             "settings": {
                 "foreground": "#c64640"
             }
